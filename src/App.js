@@ -4,7 +4,7 @@ import Pagination from './components/Pagination';
 
 function App() {
 
-  const [ itens, setItens] = useEffect([]);
+  const [ itens, setItens] = useState([]);
   const [itensPerPage, setItensPerPage] = useState(10)
   const [currentPage, setCurrentPage] = useState(0)
 
