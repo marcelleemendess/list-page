@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       {currentItens?.map(item => {
-        return <div className="item"><span>{item.id}</span><span>{item.title}</span><spa>{item.completed}</spa></div>
+        return <div className="item"><span>{item.id}</span><span>{item.title}</span><span>{item.completed}</span></div>
       })}
       <Pagination pages={pages} setCurrentPage={setCurrentPage}/>
     </div>

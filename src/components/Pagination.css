@@ -1,0 +1,9 @@
+.pagination {
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.pagination:hover {
+  background-color: lightgray;
+}
